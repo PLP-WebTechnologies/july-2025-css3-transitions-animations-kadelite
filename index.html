@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive CSS & JS Animations</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>CSS & JavaScript Interactive Assignment</h1>
+      <button id="themeToggle">Toggle Dark/Light Mode</button>
+    </header>
+
+    <main>
+      <!-- Part 1: Button Hover Animation -->
+      <section>
+        <h2>Button Hover Animation 🎨</h2>
+        <button class="animated-btn">Hover Me!</button>
+      </section>
+
+      <!-- Part 2: JavaScript Functions -->
+      <section>
+        <h2>Reusable JS Functions 💻</h2>
+        <p>Click the button to see a random number between 1 and 100:</p>
+        <button id="randomBtn">Generate Number</button>
+        <p id="randomOutput"></p>
+      </section>
+
+      <!-- Part 3: JS-triggered CSS Animations -->
+      <section>
+        <h2>Box Animation Triggered by JS 🎬</h2>
+        <div class="box" id="animateBox"></div>
+        <button id="moveBtn">Animate Box</button>
+      </section>
+
+      <!-- Card Flip Example -->
+      <section>
+        <h2>Card Flip Animation 🃏</h2>
+        <div class="card-container">
+          <div class="card" id="flipCard">
+            <div class="front">Front</div>
+            <div class="back">Back</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
